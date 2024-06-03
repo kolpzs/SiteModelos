@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon a {
+    font-size: 20px;
+    color: black;
+    transition: 0.2s;
+}
+
+.icon a:hover{
+    font-size: 21px;
+    border-bottom: 1px black solid;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-1{
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+
+}
